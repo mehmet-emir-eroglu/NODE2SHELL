@@ -1,0 +1,6 @@
+include README.md LICENSE SECURITY.md CONTRIBUTING.md CHANGELOG.md requirements.txt
+include .editorconfig .gitignore
+recursive-include docs *.md *.json
+recursive-include tests *.py
+recursive-include tools *.py
+recursive-include .github *.yml *.md
